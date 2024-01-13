@@ -1,0 +1,13 @@
+:root {
+  --background-color: black;
+  --white: #ffff;
+  --light-grey: rgb(113, 118, 123);
+  --dark-grey: #3c4043;
+  --blue: rgb(29, 155, 240);
+  --font-family: 'Syne', sans-serif; 
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+}

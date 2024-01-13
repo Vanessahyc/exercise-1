@@ -1,0 +1,256 @@
+/*-------------------------------------------------------
+---------------------------------------------------------
+Main Container
+---------------------------------------------------------
+--------------------------------------------------------*/
+.main {
+  color: var(--white);
+}
+
+.main_container {
+  display: flex;
+  padding: 32px;
+  font-family: var(--font-family);
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Left Area
+---------------------------------------------------------
+--------------------------------------------------------*/
+.leftarea {
+  width: 50%;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xImg {
+  width: 70%;
+
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Right Area
+---------------------------------------------------------
+--------------------------------------------------------*/
+.rightarea {
+  width: 50%;
+  padding: 16px;
+}
+
+.h2 {
+  font-size: 64px;
+}
+
+.h3 {
+  font-size: 31px;
+}
+
+.policy p {
+  font-size: 11px;
+  color: var(--grey);
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Sign in with Google
+---------------------------------------------------------
+--------------------------------------------------------*/
+.signin_google {
+  background-color: var(--white);
+  border-radius: 50px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sg_1 {
+  color: var(--dark-grey);
+  font-size: 14px;
+}
+
+.google_logo {
+  padding-right: 3%;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Sign in with Apple 
+---------------------------------------------------------
+--------------------------------------------------------*/
+.signin_apple {
+  background-color: var(--white);
+  border-radius: 50px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+
+}
+
+.sa_1 {
+  color: var(--dark-grey);
+  font-size: 14px;
+  padding-right: 5%;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Brake line
+---------------------------------------------------------
+--------------------------------------------------------*/
+.f_line {
+  display: block;
+  width: 125px;
+  border: 1px solid var(--light-grey);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 0 10px;
+}
+
+.br_line {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Create account button
+---------------------------------------------------------
+--------------------------------------------------------*/
+.create_account {
+  background-color: var(--blue);
+  border-radius: 50px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.ca {
+  caret-color: var(--white);
+  font: 14px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Policy sentence
+---------------------------------------------------------
+--------------------------------------------------------*/
+.policy {
+  width: 300px;
+  max-width: 380px;
+  line-height: 15px;
+  margin-bottom: 20px;
+  color: var(--light-grey);
+}
+
+.text_blue {
+  color: var(--blue);
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Sign in button
+---------------------------------------------------------
+--------------------------------------------------------*/
+.ea_line {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.signin_bt {
+  border: 1px solid var(--light-grey);
+  border-radius: 25px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.si {
+  color: var(--blue);
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------
+Media Query
+---------------------------------------------------------
+--------------------------------------------------------*/
+
+/* Mobile iphone XR */
+@media (max-width: 414px) {
+  .main_container {
+    display: block;
+    padding: 20px;
+  }
+
+  .leftarea {
+    display: block;
+  }
+
+  .rightarea {
+    width: 100%;
+  }
+
+  .xImg {
+    width: 30%;
+    align-self: flex-start;
+  }
+
+  .h2 {
+    font-size: 40px;
+    margin: 48px 0px;
+  }
+
+}
+
+/* Tablet ipad air */
+@media (min-width: 415px) and (max-width: 820px) {
+  .main_container {
+    display: block;
+    padding: 20px;
+    margin-left: 102px;
+    margin-right: 102px;
+  }
+
+  .leftarea {
+    display: block;
+  }
+
+  .rightarea {
+    width: 80%;
+  }
+
+  .xImg {
+    width: 30%;
+    align-self: flex-start;
+  }
+
+  .h2 {
+    font-size: 64px;
+    margin: 48px 0px;
+  }
+
+ 
+}
+

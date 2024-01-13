@@ -1,0 +1,33 @@
+.footer {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center; 
+   align-items: center;
+   padding-left: 16px;
+   padding-right: 16px;
+   color: var(--light-grey);
+   font-size: 13px;
+   font-family: var(--font-family);
+   background-color: var(--background-color);
+}
+
+.a {
+   margin-top: 6px;
+   margin-bottom: 6px;
+   padding-right: 16px;
+}
+
+
+@media (max-width: 700px) {
+   .footer {
+      padding: 12px 25px;
+      margin: 0;
+   }
+ 
+ }
+ 
+ /* Tablet and Smaller Desktop */
+ @media (min-width: 701px) and (max-width: 1120px) {
+  
+ }
